@@ -1,15 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Glee</title>
+  <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
-  
 
+<body>
+
+  <header class="header">
+    <div class="container-max">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.svg" alt="logo">
+          <span class="logo__item">Glee.</span>
+        </a>
+
+        <nav class="menu">
+          <ul class="menu__items">
+            <li class="menu__item"><a class="menu__link" href="#">Home +</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Pages +</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">News</a></li>
+            <li class="menu__item"><a class="menu__link" href="#"> Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="services">
+          <a class="services__link services__link--search" href="#">
+            <div class="services__search"></div>
+          </a>
+          <div class="services__items">
+            <a class="services__link" href="#">
+              <div class="services__cart"></div>
+              <span class="services__item">0</span>
+            </a>
+            <span class="services__narrow">|</span>
+            <a class="services__link" href="#">
+              <div class="services__choice"></div>
+              <span class="services__item">0</span>
+            </a>
+          </div>
+          <button class="services__btn" type="button">
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="blog">
+      <div class="container-max">
+        <div class="blog__inform">
+          <div class="blog__items">
+            <div class="blog__slider">
+              <a class="blog__link" href="#">
+                <div class="blog__text">
+                  <h1 class="blog__title">smart and trendy </h1>
+                  <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                  <button class="button" type="button">Shop Now</button>
+                </div>
+                <div class="blog__item">
+                  <img class="blog__img" src="images/sofa.png" alt="sofa">
+                </div>
+              </a>
+            </div>
+
+            <div class="blog__slider">
+              <a class="blog__link" href="#">
+                <div class="blog__text">
+                  <h1 class="blog__title">smart and trendy </h1>
+                  <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                  <button class="button" type="button">Shop Now</button>
+                </div>
+                <div class="blog__item">
+                  <img class="blog__img" src="images/sofa.png" alt="sofa">
+                </div>
+              </a>
+            </div>
+
+            <div class="blog__slider">
+              <a class="blog__link" href="#">
+                <div class="blog__text">
+                  <h1 class="blog__title">smart and trendy </h1>
+                  <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                  <button class="button" type="button">Shop Now</button>
+                </div>
+                <div class="blog__item">
+                  <img class="blog__img" src="images/sofa.png" alt="sofa">
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="blog__information">
+            <div class="blog__user blog__user--support">
+              <div class="blog__span">Support 24/7.
+                <p> Contact us 24 hours a day,
+                  7 days a week </p>
+              </div>
+            </div>
+
+            <div class="blog__user blog__user--delivery">
+              <div class="blog__border">
+                <div class="blog__span">Delivery.
+                  <p> Free shipping on all US order</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__user blog__user--secure">
+              <div class="blog__span">100% Payment secure.
+                <p> We ensure secure payment
+                  with PEV. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product">
+      <div class="container-min">
+        <h2 class="product__title">Products of the week</h2>
+        <ul class="product__list">
+          <li class="product__item">
+            <a class="product__link" href="#">
+              All
+            </a>
+          </li>
+          <li class="product__item">
+            <a class="product__link" href="#">
+              Furnitures
+            </a>
+          </li>
+          <li class="product__item">
+            <a class="product__link" href="#">
+              Chairs
+            </a>
+          </li>
+          <li class="product__item">
+            <a class="product__link" href="#">
+              Lighting
+            </a>
+          </li>
+          <li class="product__item">
+            <a class="product__link" href="#">
+              Decor
+            </a>
+          </li>
+        </ul>
+
+        <div class="product__week">
+          <div class="product__desc">
+            <img class="product__img" src="images/week/1.png" alt="product week">
+            <div class="product__btn">
+              <button class="product__button product__button--search" type="button"></button>
+              <button class="product__button product__button--basket" type="button"></button>
+              <button class="product__button product__button--like" type="button"></button>
+            </div>
+            <span class="product__span">Wooden radio</span>
+            $29.00
+          </div>
+
+          <div class="product__desc">
+            <img class="product__img" src="images/week/2.png" alt="product week">
+            <div class="product__btn">
+              <button class="product__button product__button--search" type="button"></button>
+              <button class="product__button product__button--basket" type="button"></button>
+              <button class="product__button product__button--like" type="button"></button>
+            </div>
+            <span class="product__span">Wooden chair</span>
+            $29.00
+          </div>
+
+          <div class="product__desc">
+            <img class="product__img" src="images/week/3.png" alt="product week">
+            <div class="product__btn">
+              <button class="product__button product__button--search" type="button"></button>
+              <button class="product__button product__button--basket" type="button"></button>
+              <button class="product__button product__button--like" type="button"></button>
+            </div>
+            <span class="product__span">White chair</span>
+            $29.00
+          </div>
+
+          <div class="product__desc">
+            <img class="product__img" src="images/week/4.png" alt="product week">
+            <div class="product__btn">
+              <button class="product__button product__button--search" type="button"></button>
+              <button class="product__button product__button--basket" type="button"></button>
+              <button class="product__button product__button--like" type="button"></button>
+            </div>
+            <span class="product__span">Retro table</span>
+            $29.00
+          </div>
+
+          <div class="product__desc">
+            <img class="product__img" src="images/week/5.png" alt="product week">
+            <div class="product__btn">
+              <button class="product__button product__button--search" type="button"></button>
+              <button class="product__button product__button--basket" type="button"></button>
+              <button class="product__button product__button--like" type="button"></button>
+            </div>
+            <span class="product__span">Wooden radio</span>
+            $29.00
+          </div>
+
+          <div class="product__desc">
+            <img class="product__img" src="images/week/6.png" alt="product week">
+            <div class="product__btn">
+              <button class="product__button product__button--search" type="button"></button>
+              <button class="product__button product__button--basket" type="button"></button>
+              <button class="product__button product__button--like" type="button"></button>
+            </div>
+            <span class="product__span">Wooden chair</span>
+            $29.00
+          </div>
+
+          <div class="product__desc">
+            <img class="product__img" src="images/week/7.png" alt="product week">
+            <div class="product__btn">
+              <button class="product__button product__button--search" type="button"></button>
+              <button class="product__button product__button--basket" type="button"></button>
+              <button class="product__button product__button--like" type="button"></button>
+            </div>
+            <span class="product__span">White chair</span>
+            $29.00
+          </div>
+
+          <div class="product__desc">
+            <img class="product__img" src="images/week/8.png" alt="product week">
+            <div class="product__btn">
+              <button class="product__button product__button--search" type="button"></button>
+              <button class="product__button product__button--basket" type="button"></button>
+              <button class="product__button product__button--like" type="button"></button>
+            </div>
+            <span class="product__span">Retro table</span>
+            $29.00
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container-min">
+      <div class="footer-top">
+
+        <div class="footer-top__items footer-top__items--contact">
+          <a class="logo footer-top__logo" href="#">
+            <img class="logo__img" src="images/logo.svg" alt="logo">
+            <span class="logo__item">Glee.</span>
+          </a>
+          <address class="footer-top__address">
+            ADDRESS: 4772 Wines Lane
+            Houston, TX 77032
+          </address>
+          <a class="footer-top__phone" href="tel:+832-347-5843">TELEPHONE: +832-347-5843</a>
+          <a class="footer-top__email" href="malito:contact@Glee.com">EMAIL: contact@Glee.com</a>
+        </div>
+
+        <div class="footer-top__items footer-top__items--services">
+          <span class="footer-top__title">Services</span>
+          <ul class="footer-top__list">
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">
+                About Us
+              </a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">
+                Return Policy
+              </a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">
+                Our Blog
+              </a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">
+                Contact Us
+              </a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">
+                Terms & Condition
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-top__items footer-top__items--account">
+          <span class="footer-top__title">Account</span>
+          <ul class="footer-top__list">
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">
+                Your Account
+              </a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">
+                Checkout
+              </a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">
+                Login
+              </a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">
+                Register
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-top__items footer-top__items--form">
+          <span class="footer-top__title footer-top__title--text">newsletter</span>
+          <div class="footer-top__inner">
+            <p>
+              Subscribe by our newsletter and get
+              update protidin.
+            </p>
+          </div>
+
+          <form class="form footer-top__form">
+            <input class="form__input" type="email" placeholder="Email address" required>
+            <button class="form__btn" type="button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom__copy">
+          <p>
+            ©2020 CopyRight Example. All rights reserved.
+          </p>
+        </div>
+        <ul class="footer-bottom__list">
+          <li class="footer-bottom__item">
+            <a class="footer-bottom__link" href="">
+              Home
+            </a>
+          </li>
+          <li class="footer-bottom__item">|</li>
+          <li class="footer-bottom__item">
+            <a class="footer-bottom__link" href="">
+              About
+            </a>
+          </li>
+          <li class="footer-bottom__item">|</li>
+          <li class="footer-bottom__item">
+            <a class="footer-bottom__link" href="">
+              Blog
+            </a>
+          </li>
+          <li class="footer-bottom__item">|</li>
+          <li class="footer-bottom__item">
+            <a class="footer-bottom__link" href="">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
   <script src="js/main.min.js"></script>
 </body>
+
 </html>
