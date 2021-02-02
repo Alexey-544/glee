@@ -8,7 +8,7 @@ $('.blog__items').slick({
     autoplaySpeed: 5000,
   });
 
-  var mixer1 = mixitup('.product-content__gallery', {
+  var mixer1 = mixitup('.product-content', {
 selectors: {
   control: '.filter-1',
 }
